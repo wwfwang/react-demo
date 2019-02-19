@@ -34,6 +34,7 @@ class TodoApp extends Component{
         console.log(todos);
         this.setState({
             todos
+
         })
 
 
