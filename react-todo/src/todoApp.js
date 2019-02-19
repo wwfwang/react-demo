@@ -30,6 +30,7 @@ class TodoApp extends Component{
             if(item.id === id){
                 todos.splice(index,1)
             }
+
         })
         console.log(todos);
         this.setState({
